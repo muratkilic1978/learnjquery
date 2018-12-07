@@ -8,7 +8,21 @@ $(document).ready(function(){
   $('body p.lead').css('font-size', '2em');
   $('body p.lead').css('border-radius', '10px');
   $('h2:odd').css('color', 'purple');
-  $('.box:nth-child(1)').css('background-color', 'black');
+  //$('.box:nth-child(1)').css('background-color', 'black');
+  $('.box:odd').css('background-color', 'darkblue'); 
+  $('.box:even').css('background-color', 'maroon');  
+
+  //document.querySelector(".box:last-child").textContent ='5';
+  //$(".box").text("string");
+  //$('.box:last-child').text("5");
+  //document.querySelector("a:last-child").text('Millenium.dk');
+    //$('a:last-child').text('Millenium.dk');
+    $('a:last').text('Millenium.dk');
+  $('a:last').attr('href','http://www.millenium.dk');
+  
+  
+  
+  $('h1').addClass('styleHeading');
   // BASIC ANIMATIONS
   //$('.box:first').animate({bottom: '200px', left: '200px', }, 800);
 
