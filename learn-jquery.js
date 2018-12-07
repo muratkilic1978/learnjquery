@@ -4,9 +4,13 @@ $(document).ready(function(){
 
   // BASIC SELECTORS
   //$('*').css('border', '4px solid red');
-
+  $('body p.lead').css('border', '4px solid red');
+  $('body p.lead').css('font-size', '2em');
+  $('body p.lead').css('border-radius', '10px');
+  $('h2:odd').css('color', 'purple');
+  $('.box:nth-child(1)').css('background-color', 'black');
   // BASIC ANIMATIONS
-  // $('.box:first').animate({bottom: '200px', left: '200px', }, 800);
+  //$('.box:first').animate({bottom: '200px', left: '200px', }, 800);
 
   // INDEX FILTERS
   // $('p:eq(2)').css('border', '4px solid red');
